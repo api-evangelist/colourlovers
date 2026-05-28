@@ -1,0 +1,32 @@
+aid: colourlovers
+name: ColourLovers
+description: "Get various patterns, palettes and images"
+url: http://www.colourlovers.com/api
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Art & Design"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Art And Design
+  - Public APIs
+apis:
+  - name: ColourLovers
+    description: "Get various patterns, palettes and images"
+    humanURL: http://www.colourlovers.com/api
+    baseURL: http://www.colourlovers.com/api
+    tags:
+      - Art And Design
+    properties:
+      - type: Documentation
+        url: http://www.colourlovers.com/api
+common:
+  - type: Website
+    url: http://www.colourlovers.com/api
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
