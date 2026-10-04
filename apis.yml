@@ -33,13 +33,12 @@ x-category: "Art & Design"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Art And Design
   - Public APIs
+  - Design
 apis:
   - name: ColourLovers
     description: "Get various patterns, palettes and images"
     humanURL: http://www.colourlovers.com/api
-    baseURL: http://www.colourlovers.com/api
     tags:
       - Art And Design
     properties:
@@ -55,3 +54,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Art And Design
